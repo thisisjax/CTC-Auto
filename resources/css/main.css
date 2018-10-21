@@ -293,9 +293,74 @@ header {
     border-radius: 20%;
     height: 50px;
     width: 50px;
-    text-align: center;
     padding: 5px;
     float: left;
+    text-align: none;
     font-size: 150%;
     margin-right: 25px;
+    margin-right: -5px;
+}
+
+.rafflt-text {
+    /*secrets to align text with icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/*--------------------------------------------*/
+/*SPECIAL OFFERS*/
+/*--------------------------------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.image-text {
+    text-transform: uppercase;
+    word-spacing: 4px;
+    font-size: 150%;
+    margin-bottom: 5px;
+    color: #c6ab4f; 
+}
+
+.explanation {
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-size: 80%;
+}
+
+.discounts {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: #c6ab4f;
+}
+
+/*--------------------------------------------*/
+/*CUSTOMER TESTIMONIALS*/
+/*--------------------------------------------*/
+
+.customer-pic {
+    border-radius: 60%;
+}
+
+.customer-name {
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-size: 65%;
+    float: right;
+}
+.col {
+    margin: 0px;
+}
+
+.section-testimonials {
+    background-image: url(images/handwash.jpg);
+    background-size: cover;
 }

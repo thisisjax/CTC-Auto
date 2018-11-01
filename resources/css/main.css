@@ -146,6 +146,7 @@ header {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -347,20 +348,113 @@ header {
 /*--------------------------------------------*/
 
 .customer-pic {
-    border-radius: 60%;
+    height: 80px;
+    border-radius:70%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .customer-name {
     text-transform: uppercase;
     word-spacing: 2px;
-    font-size: 65%;
+    font-size: 90%;
+    margin-right: 25px;
     float: right;
 }
+
+blockquote::before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
 .col {
     margin: 0px;
 }
 
 .section-testimonials {
-    background-image: url(images/handwash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/handwash.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    display: block;
+    position: relative;
+    margin-top: 40px;
+}
+
+/*--------------------------------------------*/
+/*DETIALING SERVICES*/
+/*--------------------------------------------*/
+
+.detailing-services {
+ background-color: rgb(29, 27, 27); 
+}
+
+.plan-box {
+    background-color: black;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px black;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #6b5a22;
+}
+
+.plan-box div:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    border: 0;
+}
+
+.compact-price {
+    font-size: 200%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #c6ab4f;
+}
+
+h3 {
+    color: white;
+}
+
+.compact-price span {
+    font-size: 50%;
+}
+
+.suv-prices {
+    font-size: 80%;
+}
+
+.suv-prices span {
+    font-size: 75%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+.ion-icon {
+    color: #c6ab4f;
+}
+
+/*--------------------------------------------*/
+/*ADDITIONAL SERVICES*/
+/*--------------------------------------------*/

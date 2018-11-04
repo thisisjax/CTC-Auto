@@ -37,7 +37,7 @@ section {
 
  /*---------HEADINGS----------*/
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-weight: 300;
     text-transform: uppercase;
     word-spacing: 4px;
@@ -62,6 +62,12 @@ h3 {
     font-size: 130%;
     margin-bottom: 15px;
     color: #c6ab4f;
+}
+
+h4 {
+    color: white;
+    font-size: 100%;
+    letter-spacing: 3px;
 }
 
 h2:after {
@@ -189,6 +195,8 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #85702b;
 } 
+
+
 
 /*--------------------------------------------*/
 /*FEATURES*/
@@ -397,6 +405,9 @@ blockquote {
 .detailing-services {
  background-color: rgb(29, 27, 27); 
 }
+.col {
+    margin-bottom: 20px;
+}
 
 .plan-box {
     background-color: black;
@@ -404,6 +415,10 @@ blockquote {
     width: 90%;
     margin-left: 5%;
     box-shadow: 0 2px 2px black;
+}
+
+.plan-box-two {
+    margin-top: 25px;
 }
 
 .plan-box div {
@@ -451,6 +466,15 @@ h3 {
     padding: 5px 0;
 }
 
+.plan-box ul li span {
+    font-size: 75%;
+}
+
+p {
+    text-align: center;
+    margin-top: 25px;
+}
+
 .ion-icon {
     color: #c6ab4f;
 }
@@ -458,3 +482,31 @@ h3 {
 /*--------------------------------------------*/
 /*ADDITIONAL SERVICES*/
 /*--------------------------------------------*/
+.add-serv ul {
+    list-style: none;
+    line-height: 25px;
+}
+
+.add-serv ul li span {
+    font-size: 70%;
+}
+
+/*--------------------------------------------*/
+/*FOOTER*/
+/*--------------------------------------------*/
+
+.footer {
+    background-color:  rgb(29, 27, 27); ;
+}
+
+h3 {
+    color:  #6b5a22;
+}
+
+.footer-nav {
+    list-style: none;
+}
+ 
+.number {
+    color: #c6ab4f;
+}

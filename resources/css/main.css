@@ -15,6 +15,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    /* overflow: hidden; */
 }
 
 /*--------------------------------------------*/
@@ -142,13 +143,34 @@ h2:after {
     color: white;
 }
 
+/*---------LINKS----------*/
+.footer-link:link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:active {
+    text-decoration: none;
+    color: white;
+}
+
 /*--------------------------------------------*/
 /*Header*/
 /*--------------------------------------------*/
 
 
 header {
-    background-image: url(images/handDetail1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/handDetail1.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -165,8 +187,18 @@ header {
     height: 150px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
 }
+
+.call, 
+.number {
+    display: inline-block;
+    /* margin-right: 20px; */
+}
+
+/* #nav-bar {
+    background-color: black;
+} */
 
 .main-nav {
     float: right;
@@ -188,7 +220,11 @@ header {
     font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.25s;
+}
 
+.phone-number {
+    text-align: left;
+    margin-top: 45px;
 }
 
 .main-nav li a:hover,
@@ -310,7 +346,15 @@ header {
     margin-right: -5px;
 }
 
-.rafflt-text {
+.section-steps {
+    background-image: url('/resources/img/gift-cards-holidays-477454060.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.raffle-text {
     /*secrets to align text with icons*/
     line-height: 120%;
     vertical-align: middle;
@@ -349,6 +393,13 @@ header {
     border-bottom-style: solid;
     border-left-style: solid;
     border-color: #c6ab4f;
+}
+
+.multi {
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-size: 70%;
+    margin-top: 0px;
 }
 
 /*--------------------------------------------*/
@@ -479,9 +530,24 @@ p {
     color: #c6ab4f;
 }
 
+.ultimate-details {
+    font-size: 75%;
+}
+
+.description {
+    font-size: 90%;
+    margin-top: 15px;
+}
+
 /*--------------------------------------------*/
 /*ADDITIONAL SERVICES*/
 /*--------------------------------------------*/
+
+.additional-services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/blackDetail.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
 .add-serv ul {
     list-style: none;
     line-height: 25px;
@@ -496,17 +562,33 @@ p {
 /*--------------------------------------------*/
 
 .footer {
-    background-color:  rgb(29, 27, 27); ;
+    background-color:  black ;
 }
 
 h3 {
     color:  #6b5a22;
 }
 
+.footer-logo {
+    height: 110px;
+    width: auto;
+    float: center;
+}
+.col-add {
+ align-items: center;
+}
+
 .footer-nav {
     list-style: none;
+    float: right;
+}
+
+.social-links {
+    list-style: none;
+    margin-top: 2px;
 }
  
 .number {
-    color: #c6ab4f;
+    color:#85702b;
+    margin-top: 5px;
 }

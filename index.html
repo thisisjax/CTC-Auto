@@ -2,6 +2,9 @@
 <html>
 
 <head>
+    <!--VIEWPORT-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <meta charset="utf-8" />
     <title>CTC Auto Detailing</title>
     <!--Normalize CSS Link-->
@@ -12,10 +15,11 @@
     <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
     <!--Main CSS Link-->
     <link rel="stylesheet" type="text/css" href="resources/css/main.css" />
-
+     <!--QUERIES CSS Link-->
+     <link rel="stylesheet" type="text/css" href="resources/css/queries.css " />
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" />
+    
 </head>
 
 <body>
@@ -23,17 +27,17 @@
     <!--Header-->
     <header>
         <nav>
-            <div class="row">
-                <img class="logo" src="resources/img/whiteLogo.jpg">
+            <div id="nav-bar" class="row">
+                <img class="logo" src="resources/img/blackLogo.jpg">
                 <ul class="main-nav">
                     <li>
                         <a href="#">ABOUT US</a>
                     </li>
                     <li>
-                        <a href="#">MOBILE DETAILING</a>
+                        <a href="#">SPECIAL OFFERS</a>
                     </li>
                     <li>
-                        <a href="#">SPECIAL OFFERS</a>
+                        <a href="#">TESTIMONIALS</a>
                     </li>
                     <li>
                         <a href="#">SERVICES</a>
@@ -43,12 +47,13 @@
         </nav>
         <div class="hero-text-box">
             <h1>When you need your vehicle to look like new again, you need a car cleaning company you can trust.</h1>
-            <a class="btn btn-full" href="#">Our Servies</a>
+            <a class="btn btn-full" href="#">Our Services</a>
             <a class="btn btn-ghost" href="#">Show Me More</a>
+            <div class="contact">
+                <h4 class="phone-number">(407) 844-1611</h4>
+            </div>
         </div>
-        <div class="contact">
-            <h4>(407) 844-1611</h4>
-        </div>
+
 
     </header>
 
@@ -142,7 +147,7 @@
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img class="app-screen" src="resources/img/blackLogo.jpg" alt="CTC Auto on iPhone">
+                <img class="app-screen" src="resources/img/enterToWin.png" alt="Varity of Gift Cards">
             </div>
             <div class="col span-1-of-2 steps-box">
                 <div class="raffle-step">
@@ -220,25 +225,25 @@
         </div>
         <div class="row">
             <div class="col span-1-of-3 box">
-                <img class="discounts" src="resources/img/suds1.jpg" alt="FREE Car Wash after 10th purchase">
-                <div class="image-text">free silver package</div>
-                <div class="explanation">Every 10th purchase</div>
+                <img class="discounts" src="resources/img/opdFlyersFront.png" alt="Orlando Police Department Specials">
+                <div class="image-text">$45 Titanium Package</div>
+                <div class="explanation">ID required</div>
             </div>
             <div class="col span-1-of-3 box">
-                <img class="discounts" src="resources/img/military.jpeg" alt="Military & Senior Citizen Discounts">
-                <div class="image-text">Military & Senior Citizen Discounts</div>
-                <div class="explanation">please call for details</div>
+                <img class="discounts" src="resources/img/militaryFlyers.png" alt="Specials">
+                <div class="image-text">15% off</div>
+                <div class="explanation">we come to you!</div>
             </div>
             <div class="col span-1-of-3 box">
-                <img class="discounts" src="resources/img/fleet.jpeg" alt="Multiple Car Discounts">
-                <div class="image-text">Multiple Car Discounts</div>
-                <div class="explanation">please call for details</div>
+                <img class="discounts" src="resources/img/osoFlyersFront.png" alt="Orange County Sheriff's Office Specials">
+                <div class="image-text">$45 Titanium Package</div>
+                <div class="explanation">ID required</div>
             </div>
 
         </div>
         <div class="row">
-            <p>Our team is equipped to take care of commercial fleets & vehicles. We offer corporate accounts & discounts for
-                taking care of your entire fleet!</p>
+            <p class="multi">Our team is equipped to take care of commercial fleets & vehicles.</p>
+            <p class="multi">We offer corporate accounts & discounts for taking care of your entire fleet!</p>
         </div>
     </section>
 
@@ -272,6 +277,7 @@
         </div>
     </section>
 
+    <!--EXPRESS package-->
     <section class="detailing-services">
         <div class="row">
             <h2>detailing services</h2>
@@ -281,11 +287,11 @@
                 <div class="plan-box">
                     <div>
                         <h3>Express</h3>
-                        <p class="compact-price">$15
+                        <p class="compact-price">$24
                             <span>/ compact</span>
                         </p>
-                        <p class="suv-prices">$20
-                            <span>/ small suv</span> $25
+                        <p class="suv-prices">$34
+                            <span>/ small suv</span> $39
                             <span>/ large suv</span>
                         </p>
                     </div>
@@ -297,48 +303,259 @@
                                 <ion-icon name="checkmark"></ion-icon>Dry</li>
                             <li>
                                 <ion-icon name="checkmark"></ion-icon>Tire Shine</li>
-                                <li><ion-icon name="close"></ion-icon></li>
-                                <li><ion-icon name="close"></ion-icon></li>
-                                <li><ion-icon name="close"></ion-icon></li>
-                                <li><ion-icon name="close"></ion-icon></li>
+                            <li>
+                                <ion-icon name="close"></ion-icon>
+                            </li>
+                            <li>
+                                <ion-icon name="close"></ion-icon>
+                            </li>
+                            <li>
+                                <ion-icon name="close"></ion-icon>
+                            </li>
+                            <li>
+                                <ion-icon name="close"></ion-icon>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-
+            <!--TITANIUM package-->
             <div class="col span-1-of-3">
-                    <div class="plan-box">
-                        <div>
-                            <h3>Gold</h3>
-                            <p class="compact-price">$45
-                                <span>/ compact</span>
-                            </p>
-                            <p class="suv-prices">$55
-                                <span>/ small suv</span> $65
-                                <span>/ large suv</span>
-                            </p>
-                        </div>
-                        <div>
-                            <ul>
-                                <li>
-                                    <ion-icon name="checkmark"></ion-icon>Scratch Free Wash</li>
-                                <li>
-                                    <ion-icon name="checkmark"></ion-icon>Dry</li>
-                                <li>
-                                    <ion-icon name="checkmark"></ion-icon>Tire Shine</li>
-                                <li>
-                                    <ion-icon name="checkmark"></ion-icon>Clean Windows</li>
-                                <li>
-                                    <ion-icon name="checkmark"></ion-icon>Vacuum</li>
-                                <li>
-                                    <ion-icon name="checkmark"></ion-icon>Clean Dash/console & Door Panels</li>
-                                <li>
-                                    <ion-icon name="checkmark"></ion-icon>Polish Gas Tank</li>
-                            </ul>
-                        </div>
+                <div class="plan-box">
+                    <div>
+                        <h3>Titanium</h3>
+                        <p class="compact-price">$129
+                            <span>/ compact</span>
+                        </p>
+                        <p class="suv-prices">$139
+                            <span>/ small suv</span> $149
+                            <span>/ large suv</span>
+                        </p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Scratch Free Wash</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Dry</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Tire Shine</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Clean Windows</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Vacuum</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Dress Dashboard & Door Panels</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Polish Gas Tank</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Shampoo Carpets, Upholstery & Floor Mats</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Deep Clean All Leather & Condition Leather</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Trunk & Door Jams</li>
+                        </ul>
                     </div>
                 </div>
+            </div>
+            <!--GOLD package-->
             <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Gold</h3>
+                        <p class="compact-price">$54
+                            <span>/ compact</span>
+                        </p>
+                        <p class="suv-prices">$54
+                            <span>/ small suv</span> $69
+                            <span>/ large suv</span>
+                        </p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Scratch Free Wash</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Dry</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Tire Shine</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Clean Windows</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Vacuum</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Dress Dashboard & Door Panels</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Polish Gas Tank</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h2> </h2>
+        </div>
+        <!--SECOND ROW-->
+        <div class="row">
+            <!--INTERIOR only-->
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Interior</h3>
+                        <p class="compact-price">$139
+                            <span>/ compact</span>
+                        </p>
+                        <p class="suv-prices">$179
+                            <span>/ small suv</span> $199
+                            <span>/ large suv</span>
+                        </p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Vaccum Crevice's & Trunk</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Shampoo Carpets, Upholstery & Floor Mats</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Headliner Steamed</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Wipe Cup Holders, Steering Column, Gauges, Knobs, Switches & Dials </li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Clean Navigation/Video Screen, Vents & Steering Column</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Clean Windows & Mirrors</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Glove Box & Compartment Interiors</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Dress Dashboard, Door Panels & Door Handles</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Deep Clean All Leather & Condition Leather</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Cloth Fabric Protectant</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Spare Tire Compartment Wiped Down</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--ULTIMATE package-->
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Ultimate</h3>
+                        <p class="compact-price">$199
+                            <span>/ compact</span>
+                        </p>
+                        <p class="suv-prices">$229
+                            <span>/ small suv</span> 249
+                            <span>/ large suv</span>
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="description">Interior</h3>
+                        <ul class="ultimate-details">
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Vaccum Crevice's & Trunk</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Shampoo Carpets, Upholstery & Floor Mats</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Headliner Steamed</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Wipe Cup Holders, Steering Column, Gauges, Knobs, Switches & Dials </li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Clean Navigation/Video Screen, Vents & Steering Column</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Clean Windows & Mirrors</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Glove Box & Compartment Interiors</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Dress Dashboard, Door Panels & Door Handles</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Deep Clean All Leather & Condition Leather</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Cloth Fabric Protectant</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Spare Tire Compartment Wiped Down</li>
+                        </ul>
+                        <h3 class="description">Exterior</h3>
+                        <ul class="ultimate-details">
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Scratch Free Wash</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Hand Dry</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Bug, Sap & Road Tar Removal</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Rubber Seals Protected & Dressed</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Tire Shine & Polish</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Polish Gas Tank</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Clean & Polish Exhaust Tips</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Squeegee Windows</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Clay Bar</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Paint Polish</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Showroom Wax</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--EXTERIOR only-->
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Exterior</h3>
+                        <p class="compact-price">$119
+                            <span>/ compact</span>
+                        </p>
+                        <p class="suv-prices">$134
+                            <span>/ small suv</span> $149
+                            <span>/ large suv</span>
+                        </p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Scratch Free Wash</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Hand Dry</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Bug, Sap & Road Tar Removal</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Rubber Seals Protected & Dressed</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Tire Shine & Polish</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Polish Gas Tank</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Clean & Polish Exhaust Tips</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Squeegee Windows</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Clay Bar</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Paint Polish</li>
+                            <li>
+                                <ion-icon name="checkmark"></ion-icon>Showroom Wax</li>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="col span-1-of-3">
                 <div class="plan-box">
                     <div>
                         <h3>Silver</h3>
@@ -367,10 +584,10 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> -->
+        <!-- </div>
         <div class="row">
-                <div class="col span-1-of-2">
+                <div class="col span-1-of-1">
                         <div class="plan-box">
                             <div>
                                 <h3>Titanium</h3>
@@ -409,19 +626,11 @@
                                         <ion-icon name="checkmark"></ion-icon>Dress Dashboar</li>
                                     <li>
                                         <ion-icon name="checkmark"></ion-icon>Trunk & Door Jams</li>
-                                        <li><ion-icon name="close"></ion-icon></li>
-                                        <li><ion-icon name="close"></ion-icon></li>
-                                        <li><ion-icon name="close"></ion-icon></li>
-                                        <li><ion-icon name="close"></ion-icon></li>
-                                        <li><ion-icon name="close"></ion-icon></li>
-                                        <li><ion-icon name="close"></ion-icon></li>
-                                        <li><ion-icon name="close"></ion-icon></li>
-                                        <li><ion-icon name="close"></ion-icon></li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-            <div class="col span-1-of-2">
+                    </div> -->
+        <!-- <div class="col span-1-of-2">
                 <div class="plan-box">
                     <div>
                         <h3>Mac Daddy</h3>
@@ -481,10 +690,10 @@
 
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> -->
 
-        <p>***ALL PRICING IS STARTING AT. PRICING OF EACH VEHICLE DEPENDS ON THE CONDITION OF THE VEHICLE***</p>
+
+        <p class="multi">***ALL PRICING IS STARTING AT*** PRICING OF EACH VEHICLE DEPENDS ON THE CONDITION OF THE VEHICLE ***</p>
     </section>
 
     <section class="additional-services">
@@ -493,26 +702,45 @@
             <div class="add-serv">
                 <ul>
                     <li>
-                        <ion-icon name="checkmark"></ion-icon>Scratch removal clay bar starting at $35</li>
+                        <ion-icon name="arrow-dropright"></ion-icon>Clay Bar
+                        <span>starting at $35</span>
+                    </li>
                     <li>
-                        <ion-icon name="checkmark"></ion-icon>Headlight restoration $150
-                        <span>(pair)</span> life time warranty extra $45</li>
+                        <ion-icon name="arrow-dropright"></ion-icon>Scratch & Oxidation Removal
+                        <span>starting at $35</span>
+                    </li>
                     <li>
-                        <ion-icon name="checkmark"></ion-icon>Rim polish: $25 per rim</li>
+                        <ion-icon name="arrow-dropright"></ion-icon>Showroom Wax
+                        <span>starting at $50</span>
+                    </li>
                     <li>
-                        <ion-icon name="checkmark"></ion-icon>Engine detail, decrease & polish: starting at $50</li>
+                        <ion-icon name="arrow-dropright"></ion-icon>Headlight Restoration $150
+                        <span>(pair) life time warranty extra $45</span>
+                    </li>
                     <li>
-                        <ion-icon name="checkmark"></ion-icon>Window tinting: prices starting at $120</li>
+                        <ion-icon name="arrow-dropright"></ion-icon>Rim Polish: $25 per rim</li>
                     <li>
-                        <ion-icon name="checkmark"></ion-icon>Leather conditioner
+                        <ion-icon name="arrow-dropright"></ion-icon>Decal Removal
+                        <span>starting at $30</span>
+                    </li>
+                    <li>
+                        <ion-icon name="arrow-dropright"></ion-icon>Engine Detail, Degrease & Polish
+                        <span>starting at $50</span>
+                    </li>
+                    <li>
+                        <ion-icon name="arrow-dropright"></ion-icon>Cloth Fabric Protectant
+                        <span>starting at $55</span>
+                    </li>
+                    <li>
+                        <ion-icon name="arrow-dropright"></ion-icon>Condition Leather
                         <span>(prices vary depending on condition of vehical)</span>
                     </li>
                     <li>
-                        <ion-icon name="checkmark"></ion-icon>Shampoo carpets & floor mats
+                        <ion-icon name="arrow-dropright"></ion-icon>Shampoo Carpets, Upholstry & Floor Mats
                         <span>(prices vary depending on condition of vehical)</span>
                     </li>
                     <li>
-                        <ion-icon name="checkmark"></ion-icon>Odor removal: pet odors, vomit, urine, beverage spills, water damage, cigarette smoke
+                        <ion-icon name="arrow-dropright"></ion-icon>Odor Removal: Vomit, Urine, Cigarette Smoke
                         <span>(prices vary depending on condition of vehical)</span>
                     </li>
                 </ul>
@@ -522,20 +750,44 @@
 
     <footer class="footer">
         <div class="row">
-            <div class="col span-1-of-2">
-                <h3>CTC Auto Detailing LLC</h3>
-                <h4>contact us</h4>
-                <p class="number">(407) 844-1611</p>
+            <div class="col-add span-1-of-1">
+                    <img class="footer-logo" src="resources/img/blackLogo.jpg" alt="CTC Logo">
+                <ul class="social-links">
+                    <li>
+                        <ion-icon name="call"></ion-icon>
+                        <p class="number">(407) 844-1611</p>
+                    </li>
+                    <li>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <p class="number">
+                            <a class="footer-link" href="www.facebook.com/ctcautodetailing">www.facebook.com/ctcautodetailing</a>
+                        </p>
+                    </li>
+                </ul>
             </div>
-            <div class="col span-1-of-2">
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-add span-1-of-1">
                 <ul class="footer-nav">
                     <li>
-                        <a href="#">back to top</a>
+                            <ion-icon name="arrow-dropup-circle"></ion-icon><a class="footer-link" href="#">back to top</a>
                     </li>
                 </ul>
             </div>
         </div>
     </footer>
+
+<!--JQUERY CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--Respond CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<!--html5shiv CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+<!--selectivzr CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+<!--maplace.js CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplace-js/0.2.10/maplace.js"></script>
 
 </body>
 

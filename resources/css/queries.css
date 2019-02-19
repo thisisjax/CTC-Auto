@@ -60,17 +60,59 @@
         margin-top: -90px;
     }
 
-    .blockquote {
-        padding: 0 5%;
+    .main-nav {display: none;}
+    .mobile-nav-icon {
+        display: inline-block;
     }
 
-    .customer-name {
-        font-size: 70%;
+    .main-nav {
+        float: left;
     }
 
-    .plan-box ul li {
-        font-size: 80%;
+    .main-nav li {
+        display: block;
     }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        font-size: 100%;
+        padding: 5px 0;
+    }
+    
+
+.sticky .main-nav {
+    margin-top: 17px;
+    margin-right: 55px;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+    padding: 10px 0;
+} 
+
+.sticky .logo {
+    height: 80px;
+    width: auto;
+}    
+
+.main-nav {
+    margin-top: 15px;
+}
+
+.blockquote {
+    padding: 0 5%;
+}
+
+.customer-name {
+    font-size: 70%;
+}
+
+.plan-box ul li {
+    font-size: 80%;
+}
+
 }
 
 /* SMALL PHONES */
@@ -92,7 +134,6 @@
         width: 100%;
     }
 
-    .main-nav { display: none;}
 
     .customer-name {
         font-size: 100%;
@@ -114,7 +155,5 @@
         font-size: 120%;
     }
 
-    .cars-photo {
-        
-    }
+   
 }

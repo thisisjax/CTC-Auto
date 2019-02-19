@@ -4,9 +4,11 @@
 <head>
     <!--VIEWPORT-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <meta charset="utf-8" />
+
     <title>CTC Auto Detailing</title>
+
     <!--Normalize CSS Link-->
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
     <!--Grid CSS Link-->
@@ -15,40 +17,45 @@
     <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
     <!--Main CSS Link-->
     <link rel="stylesheet" type="text/css" href="resources/css/main.css" />
-     <!--QUERIES CSS Link-->
-     <link rel="stylesheet" type="text/css" href="resources/css/queries.css " />
+    <!--Animate CSS Link-->
+    <link rel="stylesheet" href="animate.min.css">
+    <!--QUERIES CSS Link-->
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css " />
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" />
-    
+
 </head>
 
 <body>
 
     <!--Header-->
-    <header>
+    <header id="header">
         <nav>
-            <div id="nav-bar" class="row">
-                <img class="logo" src="resources/img/blackLogo.jpg">
-                <ul class="main-nav">
+            <div class="row">
+                <a href="#header"><img class="logo" src="resources/img/blackLogo.jpg"></a>
+                <ul class="main-nav js--main-nav">
                     <li>
-                        <a href="#">ABOUT US</a>
+                        <a href="#features">ABOUT US</a>
                     </li>
                     <li>
-                        <a href="#">SPECIAL OFFERS</a>
+                        <a href="#specials">SPECIAL OFFERS</a>
                     </li>
                     <li>
-                        <a href="#">TESTIMONIALS</a>
+                        <a href="#tests">TESTIMONIALS</a>
                     </li>
                     <li>
-                        <a href="#">SERVICES</a>
+                        <a href="#services">SERVICES</a>
                     </li>
                 </ul>
+                <a class="mobile-nav-icon js--nav-icon"><ion-icon class="menu" name="menu"></ion-icon>
+                     <!-- <ion-icon class="close" name="close"></ion-icon> -->
+                    </a>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>When you need your vehicle to look like new again, you need a car cleaning company you can trust.</h1>
-            <a class="btn btn-full" href="#">Our Services</a>
-            <a class="btn btn-ghost" href="#">Show Me More</a>
+            <a class="btn btn-full js--scroll-to-services" href="#">Our Services</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#">Show Me More</a>
             <div class="contact">
                 <h4 class="phone-number">(407) 844-1611</h4>
             </div>
@@ -58,12 +65,12 @@
     </header>
 
     <!--Section 1-->
-    <section class="section-features">
+    <section class="section-features js--section-features" id="features">
         <div class="row">
             <h2>any vehicle - any time</h2>
             <p class="long-copy">Our mission is to consistently provide quality service & workmanship to our clients.</p>
 
-            <div class="row">
+            <div class="row js--wp-1">
                 <div class="col span-1-of-3 box">
                     <ion-icon class="icon-big" name="timer"></ion-icon>
                     <h3>Quick & Convenient</h3>
@@ -143,11 +150,11 @@
     <!--Section 3-->
     <section class="section-steps">
         <div class="row">
-            <h2>enter Monthly Giveaways</h2>
+            <h2>Enter Monthly Giveaways</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img class="app-screen" src="resources/img/enterToWin.png" alt="Varity of Gift Cards">
+                <img class="app-screen js--wp-2" src="resources/img/enterToWin.png" alt="Gift Cards Raffle Giveaways">
             </div>
             <div class="col span-1-of-2 steps-box">
                 <div class="raffle-step">
@@ -219,11 +226,11 @@
     </section>
 
     <!--Section Sepcial Offers-->
-    <section class="special-offers">
+    <section class="special-offers" id="specials">
         <div class="row">
             <h2>Special Offers & Discounts</h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-3">
             <div class="col span-1-of-3 box">
                 <img class="discounts" src="resources/img/opdFlyersFront.png" alt="Orlando Police Department Specials">
                 <div class="image-text">$45 Titanium Package</div>
@@ -248,7 +255,7 @@
     </section>
 
     <!--Section Cutomer Testimonials-->
-    <section class="section-testimonials">
+    <section class="section-testimonials" id="tests">
         <div class="row">
             <h2>customer testimonials</h2>
             <div class="col span-1-of-3 quote">
@@ -278,7 +285,7 @@
     </section>
 
     <!--EXPRESS package-->
-    <section class="detailing-services">
+    <section class="detailing-services js--detailing-services" id="services">
         <div class="row">
             <h2>detailing services</h2>
         </div>
@@ -321,7 +328,7 @@
             </div>
             <!--TITANIUM package-->
             <div class="col span-1-of-3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                     <div>
                         <h3>Titanium</h3>
                         <p class="compact-price">$129
@@ -751,7 +758,7 @@
     <footer class="footer">
         <div class="row">
             <div class="col-add span-1-of-1">
-                    <img class="footer-logo" src="resources/img/blackLogo.jpg" alt="CTC Logo">
+                <img class="footer-logo" src="resources/img/blackLogo.jpg" alt="CTC Logo">
                 <ul class="social-links">
                     <li>
                         <ion-icon name="call"></ion-icon>
@@ -771,23 +778,30 @@
             <div class="col-add span-1-of-1">
                 <ul class="footer-nav">
                     <li>
-                            <ion-icon name="arrow-dropup-circle"></ion-icon><a class="footer-link" href="#">back to top</a>
+                        <ion-icon name="arrow-dropup-circle"></ion-icon>
+                        <a class="footer-link" href="#">back to top</a>
                     </li>
                 </ul>
             </div>
         </div>
     </footer>
 
-<!--JQUERY CDN-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!--Respond CDN-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
-<!--html5shiv CDN-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
-<!--selectivzr CDN-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
-<!--maplace.js CDN-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/maplace-js/0.2.10/maplace.js"></script>
+    <!--JQUERY CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--Respond CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <!--html5shiv CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+    <!--selectivzr CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <!--maplace.js CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/maplace-js/0.2.10/maplace.js"></script>
+     <!--Waypoints Link-->
+     <script src="vendors/js/jquery.waypoints.min.js"></script>
+     <!--Animated CDN-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!--Javascript Link-->
+    <script src="resources/js/script.js"></script>
 
 </body>
 

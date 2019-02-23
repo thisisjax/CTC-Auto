@@ -265,11 +265,14 @@ header {
     padding: 17px 0;
 } 
 
+<<<<<<< Updated upstream
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 10px 0;
 }
 
+=======
+>>>>>>> Stashed changes
 .sticky .logo {
     height: 60px;
     width: auto;

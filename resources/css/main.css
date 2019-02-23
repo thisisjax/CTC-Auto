@@ -170,7 +170,7 @@ h2:after {
 
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/handDetail1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/handDetail1-min.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -384,11 +384,11 @@ header {
     margin-right: -5px;
 }
 
-.section-steps {
+/* .section-steps {
     background-image: url('/resources/img/gift-cards-holidays-477454060.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 
 
@@ -473,7 +473,7 @@ blockquote::before {
 }
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/handwash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/hand3-min.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -496,6 +496,10 @@ blockquote {
 }
 .col {
     margin-bottom: 20px;
+}
+ 
+.space {
+    color: black;
 }
 
 .plan-box {

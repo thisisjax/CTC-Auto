@@ -51,7 +51,7 @@ $(document).ready(function () {
     });
 
     $(".js--wp-3").waypoint(function(direction) {
-        $(".js--wp-3").addClass('animated zoomIn');
+        $(".js--wp-3").addClass('animated fadeInUp');
     }, {
         offset: '50%'
     });
